@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gayatri Patil | Data Analyst &amp; MIS Executive Portfolio</title>
+  <meta name="description" content="Gayatri Rajaram Patil — Data Analyst and aspiring Business Analyst skilled in SQL, Power BI, Tableau, Excel and Python. B.Sc Computer Science graduate based in Pune, Maharashtra, seeking data analytics and MIS opportunities.">
+  <meta name="keywords" content="Gayatri Patil, Data Analyst, Business Analyst, MIS Executive, Power BI, SQL, Tableau, Excel, Python, Pune, Portfolio">
+  <meta name="author" content="Gayatri Rajaram Patil">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://gayatripatil.dev/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gayatri Patil | Data Analyst &amp; MIS Executive Portfolio">
+  <meta property="og:description" content="Data Analyst skilled in SQL, Power BI, Tableau, Excel and Python. Explore projects, experience and certifications.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <!-- AOS Animation -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" rel="stylesheet">
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <!-- Structured data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Gayatri Rajaram Patil",
+    "jobTitle": "Data Analyst",
+    "email": "mailto:patilgr1205@gmail.com",
+    "url": "https://gayatripatil.dev/",
+    "sameAs": [
+      "https://www.linkedin.com/in/gayatri-patil1204",
+      "https://github.com/Gayatri120"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pune",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===== Loading Screen ===== -->
+  <div id="loading-screen" aria-hidden="true">
+    <div class="loader-mark">GP</div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+
+  <!-- ===== Scroll progress indicator ===== -->
+  <div id="scroll-progress"></div>
+
+  <!-- ===== Custom cursor (desktop only, decorative) ===== -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- ===== Navigation ===== -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Primary">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Gayatri Patil<span>.</span></a>
+        <button class="navbar-toggler" type="button" id="navToggle" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggler-bar"></span>
+          <span class="toggler-bar"></span>
+          <span class="toggler-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+          <ul class="navbar-nav align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item ms-lg-2">
+              <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+                <i class="fa-solid fa-moon"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HOME / HERO ===== -->
+    <section id="home" class="hero-section">
+      <canvas id="particles" aria-hidden="true"></canvas>
+      <div class="hero-glow"></div>
+      <div class="container hero-inner">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7" data-aos="fade-up">
+            <p class="eyebrow"><span class="dot"></span> Available for Data Analytics</p>
+            <h1 class="hero-name">Gayatri Rajaram Patil</h1>
+            <h2 class="hero-role">I turn raw data into <span id="typed-role" class="typed-accent"></span></h2>
+            <p class="hero-intro">B.Sc. Computer Science graduate from Pune, passionate about SQL, Power BI, Tableau, Excel and Python. I help teams understand their data and make faster, evidence-based decisions.</p>
+            <div class="hero-cta">
+              <a href="assets/resume/resume.pdf" download class="btn btn-gradient"><i class="fa-solid fa-download"></i> Download Resume</a>
+              <a href="#projects" class="btn btn-outline-brand">View Projects</a>
+              <a href="#contact" class="btn btn-ghost">Contact Me <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="hero-stats" role="list">
+              <div class="stat" role="listitem"><span class="stat-num" data-count="2">0</span><span class="stat-label">Internships</span></div>
+              <div class="stat" role="listitem"><span class="stat-num" data-count="2">0</span><span class="stat-label">Projects</span></div>
+              <div class="stat" role="listitem"><span class="stat-num" data-count="2">0</span><span class="stat-label">Certifications</span></div>
+              <div class="stat" role="listitem"><span class="stat-num" data-count="78">0</span><span class="stat-label">% Graduation Score</span></div>
+            </div>
+          </div>
+          <div class="col-lg-5" data-aos="fade-left" data-aos-delay="150">
+            <div class="hero-avatar-wrap">
+              <div class="avatar-card glass">
+                <img src="assets/images/profile.jpg" alt="Gayatri Patil — Data Analyst" width="360" height="360" loading="eager">
+              </div>
+              <div class="floating-badge badge-1"><i class="fa-solid fa-chart-line"></i> Power BI</div>
+              <div class="floating-badge badge-2"><i class="fa-solid fa-database"></i> SQL</div>
+              <div class="floating-badge badge-3"><i class="fa-brands fa-python"></i> Python</div>
+              <div class="floating-badge badge-4"><i class="fa-solid fa-table"></i> Excel</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+        <span></span> Scroll
+      </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section-pad">
+      <div class="container">
+        <p class="section-eyebrow" data-aos="fade-up">About Me</p>
+        <h2 class="section-title" data-aos="fade-up">The person behind the numbers</h2>
+        <div class="row gy-5 align-items-center mt-4">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="glass-panel">
+              <p class="lead-text">I'm an entry-level Data Analyst and MIS professional based in Pune, Maharashtra, with a Bachelor's degree in Computer Science from Savitribai Phule Pune University. I enjoy working with SQL, Power BI, Tableau, Excel and Python to collect, clean and visualize real-world data that supports data-driven decision making.</p>
+              <p>My academic projects and internships have given me hands-on exposure to database querying, dashboarding and reporting — from analysing operational efficiency data with MySQL and PostgreSQL, to building a fitness-tracking dashboard in Python and Excel. Alongside analytics, I also completed on-the-job training in front-end web development, giving me a practical, full-picture understanding of how data and technology come together.</p>
+              <p>I'm now looking for an entry-level Data Analyst, Business Analyst or MIS role where I can apply these skills to real business problems while continuing to grow.</p>
+              <ul class="about-facts">
+                <li><i class="fa-solid fa-location-dot"></i> Pune, Maharashtra, India</li>
+                <li><i class="fa-solid fa-graduation-cap"></i> B.Sc. Computer Science, 78%</li>
+                <li><i class="fa-solid fa-language"></i> English · Hindi · Marathi</li>
+                <li><i class="fa-solid fa-briefcase"></i> Open to Data Analyst / Business Analyst </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="about-grid">
+              <div class="about-card glass" data-aos="zoom-in" data-aos-delay="0">
+                <i class="fa-solid fa-chart-pie"></i>
+                <h3>Data Analysis</h3>
+                <p>Cleaning, structuring and visualizing datasets to surface clear, actionable insight.</p>
+              </div>
+              <div class="about-card glass" data-aos="zoom-in" data-aos-delay="100">
+                <i class="fa-solid fa-database"></i>
+                <h3>Databases</h3>
+                <p>Writing SQL queries across MySQL and PostgreSQL — joins, aggregations, CRUD.</p>
+              </div>
+              <div class="about-card glass" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fa-solid fa-desktop"></i>
+                <h3>Dashboards</h3>
+                <p>Building reports and dashboards in Power BI, Tableau and Excel.</p>
+              </div>
+              <div class="about-card glass" data-aos="zoom-in" data-aos-delay="300">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Basics</h3>
+                <p>Practical experience with HTML, CSS and JavaScript from on-the-job training.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section-pad section-alt">
+      <div class="container">
+        <p class="section-eyebrow" data-aos="fade-up">Skills</p>
+        <h2 class="section-title" data-aos="fade-up">Tools I analyze with</h2>
+
+        <div class="row mt-5 gy-5">
+          <div class="col-lg-7" data-aos="fade-up">
+            <h3 class="skills-subhead">Technical Skills</h3>
+            <div class="skill-bar-group">
+
+              <div class="skill-bar" data-percent="80">
+                <div class="skill-bar-head"><span><i class="fa-solid fa-database"></i> SQL (MySQL / PostgreSQL)</span><span class="skill-percent">80%</span></div>
+                <div class="skill-track"><div class="skill-fill"></div></div>
+              </div>
+
+              <div class="skill-bar" data-percent="85">
+                <div class="skill-bar-head"><span><i class="fa-solid fa-file-excel"></i> MS Excel</span><span class="skill-percent">85%</span></div>
+                <div class="skill-track"><div class="skill-fill"></div></div>
+              </div>
+
+              <div class="skill-bar" data-percent="75">
+                <div class="skill-bar-head"><span><i class="fa-solid fa-chart-column"></i> Power BI</span><span class="skill-percent">75%</span></div>
+                <div class="skill-track"><div class="skill-fill"></div></div>
+              </div>
+
+              <div class="skill-bar" data-percent="60">
+                <div class="skill-bar-head"><span><i class="fa-solid fa-chart-line"></i> Tableau</span><span class="skill-percent">60%</span></div>
+                <div class="skill-track"><div class="skill-fill"></div></div>
+              </div>
+
+              <div class="skill-bar" data-percent="65">
+                <div class="skill-bar-head"><span><i class="fa-brands fa-python"></i> Python</span><span class="skill-percent">65%</span></div>
+                <div class="skill-track"><div class="skill-fill"></div></div>
+              </div>
+
+              <div class="skill-bar" data-percent="80">
+                <div class="skill-bar-head"><span><i class="fa-brands fa-html5"></i> HTML</span><span class="skill-percent">80%</span></div>
+                <div class="skill-track"><div class="skill-fill"></div></div>
+              </div>
+
+              <div class="skill-bar" data-percent="75">
+                <div class="skill-bar-head"><span><i class="fa-brands fa-css3-alt"></i> CSS</span><span class="skill-percent">75%</span></div>
+                <div class="skill-track"><div class="skill-fill"></div></div>
+              </div>
+
+              <div class="skill-bar" data-percent="60">
+                <div class="skill-bar-head"><span><i class="fa-brands fa-js"></i> JavaScript</span><span class="skill-percent">60%</span></div>
+                <div class="skill-track"><div class="skill-fill"></div></div>
+              </div>
+
+              <div class="skill-bar" data-percent="70">
+                <div class="skill-bar-head"><span><i class="fa-brands fa-git-alt"></i> Git</span><span class="skill-percent">70%</span></div>
+                <div class="skill-track"><div class="skill-fill"></div></div>
+              </div>
+
+              <div class="skill-bar" data-percent="75">
+                <div class="skill-bar-head"><span><i class="fa-brands fa-github"></i> GitHub</span><span class="skill-percent">75%</span></div>
+                <div class="skill-track"><div class="skill-fill"></div></div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="skills-subhead">Soft Skills</h3>
+            <div class="circular-skill-grid">
+              <div class="circular-skill" data-percent="90">
+                <svg viewBox="0 0 120 120" class="circle-svg">
+                  <circle cx="60" cy="60" r="52" class="circle-track"></circle>
+                  <circle cx="60" cy="60" r="52" class="circle-fill"></circle>
+                </svg>
+                <div class="circular-skill-label"><span class="circular-skill-num">0</span>%<br>Communication</div>
+              </div>
+              <div class="circular-skill" data-percent="85">
+                <svg viewBox="0 0 120 120" class="circle-svg">
+                  <circle cx="60" cy="60" r="52" class="circle-track"></circle>
+                  <circle cx="60" cy="60" r="52" class="circle-fill"></circle>
+                </svg>
+                <div class="circular-skill-label"><span class="circular-skill-num">0</span>%<br>Problem Solving</div>
+              </div>
+              <div class="circular-skill" data-percent="88">
+                <svg viewBox="0 0 120 120" class="circle-svg">
+                  <circle cx="60" cy="60" r="52" class="circle-track"></circle>
+                  <circle cx="60" cy="60" r="52" class="circle-fill"></circle>
+                </svg>
+                <div class="circular-skill-label"><span class="circular-skill-num">0</span>%<br>Analytical Thinking</div>
+              </div>
+            </div>
+
+            <div class="glass-panel mt-4">
+              <h3 class="skills-subhead mb-3">Tools &amp; Platforms</h3>
+              <div class="tool-chip-row">
+                <span class="tool-chip"><i class="fa-brands fa-github"></i> GitHub</span>
+                <span class="tool-chip"><i class="fa-solid fa-file-powerpoint"></i> PowerPoint</span>
+                <span class="tool-chip"><i class="fa-brands fa-linux"></i> Kali Linux</span>
+                <span class="tool-chip"><i class="fa-solid fa-database"></i> MySQL</span>
+                <span class="tool-chip"><i class="fa-solid fa-database"></i> PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="section-pad">
+      <div class="container">
+        <p class="section-eyebrow" data-aos="fade-up">Education</p>
+        <h2 class="section-title" data-aos="fade-up">Academic timeline</h2>
+
+        <div class="timeline mt-5">
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass">
+              <span class="timeline-year">Aug 2022 – Oct 2025</span>
+              <h3>Bachelor of Science — Computer Science</h3>
+              <p class="timeline-org">Savitribai Phule Pune University, Pune, Maharashtra</p>
+              <span class="timeline-score">Score: 78.00%</span>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass">
+              <span class="timeline-year">March 2022</span>
+              <h3>HSC — Higher Secondary Certificate</h3>
+              <p class="timeline-org">Maharashtra State Board, Pune, Maharashtra</p>
+              <span class="timeline-score">Score: 56.60%</span>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass">
+              <span class="timeline-year">March 2020</span>
+              <h3>SSC — Secondary School Certificate</h3>
+              <p class="timeline-org">Maharashtra State Board, Pune, Maharashtra</p>
+              <span class="timeline-score">Score: 88.00%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="section-pad section-alt">
+      <div class="container">
+        <p class="section-eyebrow" data-aos="fade-up">Experience</p>
+        <h2 class="section-title" data-aos="fade-up">Where I've applied my skills</h2>
+        <p class="section-sub" data-aos="fade-up">Fresher with hands-on experience gained through internships, academic projects and technical training.</p>
+
+        <div class="row mt-5 gy-4">
+          <div class="col-md-6" data-aos="fade-up">
+            <div class="exp-card glass">
+              <div class="exp-card-head">
+                <span class="exp-icon"><i class="fa-solid fa-chart-simple"></i></span>
+                <div>
+                  <h3>Data Analytics Intern</h3>
+                  <p class="exp-org">YSM Info Solution</p>
+                </div>
+              </div>
+              <span class="exp-duration"><i class="fa-regular fa-calendar"></i> July 2025 – September 2025 · 2 Months</span>
+              <ul class="exp-list">
+                <li>Worked on real-world datasets using analytical tools.</li>
+                <li>Performed data cleaning, basic analysis and reporting.</li>
+              </ul>
+              <div class="exp-tags">
+                <span>Data Cleaning</span><span>Reporting</span><span>Analysis</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="exp-card glass">
+              <div class="exp-card-head">
+                <span class="exp-icon"><i class="fa-solid fa-code"></i></span>
+                <div>
+                  <h3>Web Development (OJT)</h3>
+                  <p class="exp-org">Upturn Indian Technologies</p>
+                </div>
+              </div>
+              <span class="exp-duration"><i class="fa-regular fa-calendar"></i> April 2026 – May 2026 · 2 Months</span>
+              <ul class="exp-list">
+                <li>Developed and maintained responsive web pages using HTML, CSS and JavaScript.</li>
+                <li>Worked on front-end development and website customization tasks.</li>
+                <li>Gained practical experience in web design, debugging and project deployment.</li>
+              </ul>
+              <div class="exp-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section-pad">
+      <div class="container">
+        <p class="section-eyebrow" data-aos="fade-up">Projects</p>
+        <h2 class="section-title" data-aos="fade-up">Things I've built</h2>
+
+        <div class="project-filters mt-4" data-aos="fade-up">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="sql">SQL / Database</button>
+          <button class="filter-btn" data-filter="python">Python / Excel</button>
+        </div>
+
+        <div class="row mt-4 gy-4" id="projectGrid">
+          <div class="col-lg-6 project-item" data-category="sql" data-aos="fade-up">
+            <div class="project-card glass">
+              <div class="project-img">
+                <img src="assets/images/project-1.svg" alt="PMPML Conductor Efficiency Analysis System dashboard illustration" loading="lazy">
+              </div>
+              <div class="project-body">
+                <h3>PMPML Conductor Efficiency Analysis System</h3>
+                <p>A data analytics project focused on evaluating conductor and route efficiency for a public transport operator using structured database analysis.</p>
+                <ul class="project-features">
+                  <li>Collected, managed and analyzed operational data using MySQL &amp; PostgreSQL.</li>
+                  <li>Wrote SQL queries to extract insights on efficiency and performance.</li>
+                  <li>Supported data-driven analysis for operational improvement.</li>
+                </ul>
+                <div class="project-tags">
+                  <span>MySQL</span><span>PostgreSQL</span><span>SQL</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/Gayatri120/PGPMPL" target="_blank" rel="noopener" class="btn btn-outline-brand btn-sm"><i class="fa-brands fa-github"></i> View on GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 project-item" data-category="python" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-card glass">
+              <div class="project-img">
+                <img src="assets/images/project-2.svg" alt="Fitness gym progress tracker chart illustration" loading="lazy">
+              </div>
+              <div class="project-body">
+                <h3>Fitness Gym Progress Tracker</h3>
+                <p>A Python + Excel data analysis project that tracks fitness progress over time through cleaned data and visual charts.</p>
+                <ul class="project-features">
+                  <li>Collected and organized fitness data using Excel.</li>
+                  <li>Cleaned and analyzed data using Python (Pandas).</li>
+                  <li>Created charts and visualizations to track fitness progress.</li>
+                </ul>
+                <div class="project-tags">
+                  <span>Python</span><span>Pandas</span><span>Excel</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/Gayatri120/Project-Description-Python-Excel-Data-Analysis-Project" target="_blank" rel="noopener" class="btn btn-outline-brand btn-sm"><i class="fa-brands fa-github"></i> View on GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section id="certifications" class="section-pad section-alt">
+      <div class="container">
+        <p class="section-eyebrow" data-aos="fade-up">Certifications</p>
+        <h2 class="section-title" data-aos="fade-up">Certifications &amp; Achievements</h2>
+
+        <div class="row mt-5 gy-4">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="cert-card glass">
+              <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+              <h3>Data &amp; Technology Fundamentals</h3>
+              <p class="cert-org">Infosys Springboard</p>
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> March 2024</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="cert-card glass">
+              <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+              <h3>Web Development (OJT)</h3>
+              <p class="cert-org">Upturn Indian Technologies</p>
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> April – May 2026</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="cert-card glass">
+              <div class="cert-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <h3>Internship certificate</h3>
+              <p class="cert-org">YSM Info Solutions</p>
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> july-sep 2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Achievements / testimonial-style highlight strip -->
+        <div class="highlight-strip mt-5" data-aos="fade-up">
+          <div class="highlight-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <p>2 internships completed across Data Analytics and Web Development</p>
+          </div>
+          <div class="highlight-item">
+            <i class="fa-solid fa-diagram-project"></i>
+            <p>Hands-on academic projects using SQL, Python and Excel</p>
+          </div>
+          <div class="highlight-item">
+            <i class="fa-solid fa-language"></i>
+            <p>Fluent in English, Hindi and Marathi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RESUME ===== -->
+    <section id="resume" class="section-pad">
+      <div class="container">
+        <p class="section-eyebrow" data-aos="fade-up">Resume</p>
+        <h2 class="section-title" data-aos="fade-up">My resume</h2>
+        <div class="row mt-5 align-items-center gy-4">
+          <div class="col-lg-5" data-aos="fade-right">
+            <div class="glass-panel">
+              <p>Here's a quick snapshot of my education, skills and experience. Download the full PDF or preview it below.</p>
+              <a href="C:\Users\hp\Downloads\Gayatri_Patil_Portfolio\assets\resume\resume.pdf" download class="btn btn-gradient"><i class="fa-solid fa-download"></i> Download Resume (PDF)</a>
+              <ul class="resume-quick-list mt-4">
+                <li><i class="fa-solid fa-check"></i> B.Sc. Computer Science — 78%</li>
+                <li><i class="fa-solid fa-check"></i> SQL · Power BI · Tableau · Excel · Python</li>
+                <li><i class="fa-solid fa-check"></i> 2 Internships · 2 Projects · 2 Certifications</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="resume-preview glass">
+              <iframe src="assets/resume/resume.pdf" title="Gayatri Patil Resume Preview" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section-pad section-alt">
+      <div class="container">
+        <p class="section-eyebrow" data-aos="fade-up">Contact</p>
+        <h2 class="section-title" data-aos="fade-up">Let's work together</h2>
+        <p class="section-sub" data-aos="fade-up">Have an opportunity or question? I'd love to hear from you.</p>
+
+        <div class="row mt-5 gy-4">
+          <div class="col-lg-5" data-aos="fade-right">
+            <div class="glass-panel contact-info-panel">
+              <div class="contact-info-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div><span>Email</span><a href="mailto:patilgr1205@gmail.com">patilgr1205@gmail.com</a></div>
+              </div>
+              <div class="contact-info-item">
+                <i class="fa-solid fa-phone"></i>
+                <div><span>Phone</span><a href="tel:+917410706437">+91 74107 06437</a></div>
+              </div>
+              <div class="contact-info-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <div><span>LinkedIn</span><a href="https://www.linkedin.com/in/gayatri-patil1204" target="_blank" rel="noopener">gayatri-patil1204</a></div>
+              </div>
+              <div class="contact-info-item">
+                <i class="fa-brands fa-github"></i>
+                <div><span>GitHub</span><a href="https://github.com/Gayatri120" target="_blank" rel="noopener">Gayatri120</a></div>
+              </div>
+              <div class="contact-info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div><span>Location</span><a>Pune, Maharashtra, India</a></div>
+              </div>
+
+              <div class="social-row">
+                <a href="https://www.linkedin.com/in/gayatri-patil1204" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Gayatri120" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:patilgr1205@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+
+              <div class="map-embed mt-4">
+                <iframe
+                  src="https://www.google.com/maps?q=Pune,Maharashtra,India&output=embed"
+                  loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  title="Map showing Pune, Maharashtra"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left">
+            <form id="contactForm" class="glass-panel contact-form" novalidate>
+              <div class="row gy-3">
+                <div class="col-md-6">
+                  <label for="cf-name" class="form-label">Full Name</label>
+                  <input type="text" id="cf-name" name="name" class="form-control" placeholder="Your name" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="cf-email" class="form-label">Email Address</label>
+                  <input type="email" id="cf-email" name="email" class="form-control" placeholder="you@example.com" required>
+                  <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+                <div class="col-12">
+                  <label for="cf-subject" class="form-label">Subject</label>
+                  <input type="text" id="cf-subject" name="subject" class="form-control" placeholder="What's this about?" required>
+                  <div class="invalid-feedback">Please enter a subject.</div>
+                </div>
+                <div class="col-12">
+                  <label for="cf-message" class="form-label">Message</label>
+                  <textarea id="cf-message" name="message" rows="5" class="form-control" placeholder="Write your message..." required></textarea>
+                  <div class="invalid-feedback">Please enter a message.</div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-gradient w-100 w-md-auto">
+                    <i class="fa-solid fa-paper-plane"></i> Send Message
+                  </button>
+                  <p id="formStatus" class="form-status mt-3" role="status" aria-live="polite"></p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <a class="footer-brand" href="#home">Gayatri Patil<span>.</span></a>
+        <ul class="footer-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/gayatri-patil1204" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/Gayatri120" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:patilgr1205@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <hr>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Gayatri Rajaram Patil. All rights reserved.</p>
+        <p class="footer-note">Designed &amp; built as a personal portfolio.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
